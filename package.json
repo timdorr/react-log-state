@@ -10,5 +10,8 @@
     "state"
   ],
   "author": "Tim Dorr <timdorr@timdorr.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^15.3.0"
+  }
 }
