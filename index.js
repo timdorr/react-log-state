@@ -26,11 +26,19 @@
     return setState.apply(this, arguments)
   }
 
-  return function(element) {
+  var ReactLogState = function(element) {
     if (element.setState === logSetState) return
 
     element.setState = logSetState.bind(element)
 
     console.info('Watching setState for ' + element.constructor.name)
   }
+
+  ReactLogState.logAll = function() {
+    React.Component.prototype.setState = logSetState
+
+    console.info('Watching setState for all elements.')
+  }
+
+  return ReactLogState
 }))
