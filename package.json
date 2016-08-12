@@ -1,0 +1,14 @@
+{
+  "name": "react-log-state",
+  "version": "0.0.1",
+  "description": "Log setState in your React apps.",
+  "main": "index.js",
+  "repository": "timdorr/react-log-state",
+  "keywords": [
+    "react",
+    "log",
+    "state"
+  ],
+  "author": "Tim Dorr <timdorr@timdorr.com>",
+  "license": "MIT"
+}
