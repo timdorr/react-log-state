@@ -29,3 +29,11 @@ Open up your browser's console. Select an element using the [React DevTools](htt
 ReactLogState($r)
 ```
 That's it! Any calls to `setState` will be logged in the console.
+
+---
+
+You can also hook into all `setState` calls globally:
+```js
+ReactLogState.logAll()
+```
+Of course, this technically alters how `setState` operates, so you may have a bad time if any of your components making a lot of changes to state.
