@@ -1,6 +1,6 @@
 {
   "name": "react-log-state",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Log setState in your React apps.",
   "main": "index.js",
   "repository": "timdorr/react-log-state",
