@@ -1,4 +1,7 @@
-# React Log State
+# React Log State [![npm package][npm-badge]][npm]
+
+[npm-badge]: https://img.shields.io/npm/v/react-log-state.svg?style=flat-square
+[npm]: https://www.npmjs.org/package/react-log-state
 
 A little tweak on [@ryanflorence](https://github.com/ryanflorence)'s [React Lumberjack](https://github.com/ryanflorence/react-lumberjack). Lets you track setState calls on React elements at runtime.
 
