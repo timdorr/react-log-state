@@ -2,14 +2,14 @@
 (function (root, factory) {
 
   if (typeof define === 'function' && define.amd) {
-    define(['react'], factory)
+    define(['react'], function(React) { return (root.ReactLogState = factory(React)) })
   } else if (typeof exports === 'object') {
-    module.exports = factory(require('react'))
+    root.ReactLogState = module.exports = factory(require('react'))
   } else {
     root.ReactLogState = factory(root.React)
   }
 
-}(this || window, function (React) {
+}(window, function (React) {
   var setState = React.Component.prototype.setState
 
   function logSetState(nextState) {
