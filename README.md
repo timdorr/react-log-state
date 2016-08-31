@@ -22,7 +22,7 @@ require('react-log-state')
 #### `<script>` tag
 Add the following to your HTML anywhere:
 ```html
-<script src="https://npmcdn.com/react-log-state"></script>
+<script src="https://unpkg.com/react-log-state"></script>
 ```
 
 ## Usage
