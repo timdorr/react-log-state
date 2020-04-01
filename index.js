@@ -20,6 +20,10 @@
 
     console.log('Previous State', this.state)
     console.log('Incoming State', resolvedNextState)
+    
+    console.groupCollapsed('Incoming State Trace')
+    console.trace()
+    console.groupEnd('Incoming State Trace')
 
     console.groupEnd(group)
 
